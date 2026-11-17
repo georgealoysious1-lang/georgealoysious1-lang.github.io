@@ -1,0 +1,6 @@
+LinkedIn, Facebook, WhatsApp, X and envelope icons from Font Awesome Free 6.7.2
+Copyright (c) Fonticons, Inc. (https://fontawesome.com)
+Licensed under CC BY 4.0 (https://creativecommons.org/licenses/by/4.0/).
+Source: https://github.com/FortAwesome/Font-Awesome/tree/6.7.2/svgs
+Converted from SVG to PNG masks and tinted with a liquid-metal finish.
+Brand marks are trademarks of their respective owners.
