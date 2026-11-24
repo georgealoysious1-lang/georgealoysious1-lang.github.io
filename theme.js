@@ -49,9 +49,14 @@
     if (navigation && button.parentElement !== navigation) navigation.prepend(button);
   }
   // Wait for hydration before adding a control to the React navigation.
-  window.addEventListener('portfolio-ready', () => {
+  function startToggle() {
     const observer = new MutationObserver(mountToggle);
     observer.observe(document.getElementById('root'), { childList: true, subtree: true });
     mountToggle();
-  }, { once: true });
+  }
+  if (window.__portfolioReady) {
+    startToggle();
+  } else {
+    window.addEventListener('portfolio-ready', startToggle, { once: true });
+  }
 })();
